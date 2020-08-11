@@ -1,5 +1,5 @@
 # Container image that your code
-FROM alpine: 3.10
+FROM alpine:3.10
 
 #Copies your code file from action repository to the filesystem path `/` of
 COPY entrypoint.sh /entrypoint.sh
