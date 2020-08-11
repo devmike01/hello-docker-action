@@ -5,5 +5,5 @@ FROM debian:9.5-slim
 COPY entrypoint.sh /entrypoint.sh
 
 #  Executes `entrypoint.sh` when the Docker container starts up
-ENTYRYPOINT ["/entrypoint.sh"]
+ENTRYPOINT ["/entrypoint.sh"]
 
